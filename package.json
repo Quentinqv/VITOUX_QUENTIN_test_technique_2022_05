@@ -1,0 +1,15 @@
+{
+  "name": "api_rest_getwelcom",
+  "version": "1.0.0",
+  "description": "API REST GetWelcom",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "author": "VITOUX Quentin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3"
+  }
+}
