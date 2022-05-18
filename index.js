@@ -10,7 +10,6 @@ app.use(express.json());
 app.get("/servertime", (req, res) => {
   // Create a new instance of ServerTime
   let sti = new ServerTime(req.query.when)
-  console.log(sti.getServerTime)
   res.status(sti.getServerTime.code).send(sti.getServerTime.return)
 })
 
